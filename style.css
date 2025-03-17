@@ -30,5 +30,5 @@ img{
 }
 img:hover{
     transform: rotate(360deg);
-    animation: girar 1s linear infinite;/* Animação de rotação */
+    animation: girar 1s linear ;/* Animação de rotação */
 }
