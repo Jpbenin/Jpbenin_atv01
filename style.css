@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+    margin: 1;
+}
+h1{
+    color: green;
+}
+p{
+    color:gray;
+    
+}
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img{ 
+    border: 5px solid black; /* Moldura preta de 5px */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px; /* Espaço interno entre a borda e a imagem */
+    display: block;
+    margin: 10px auto; /* Centralizar a imagem */
+    border-color: green;
+    transition: transform 0.5s ease-in-out;
+}
+img:hover{
+    transform: rotate(360deg);
+    animation: girar 1s linear infinite;/* Animação de rotação */
+}
